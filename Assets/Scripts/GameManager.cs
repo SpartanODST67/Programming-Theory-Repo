@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public int chosenCar { get; private set; }
     private void Awake()
     {
+        //ABSTRACTION
         Singleton();
         DontDestroyOnLoad(gameObject);
     }
